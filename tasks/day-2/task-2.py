@@ -38,6 +38,7 @@ print(reversed_str[0:len(reversed_str):2])
 
 my_str_1 ="123456789"
 print(my_str_1[::-1][::2]) # Simple and more concise
+print(my_str_1[::-2]) # Simple and more concise - as the step field can go from the last and log only alternate values
 
 # Task 4
 # Online Python compiler (interpreter) to run Python online.
