@@ -45,7 +45,7 @@ print(my_str_1[::-1][::2]) # Simple and more concise
 def fib_2_numbers(a, b):
     my_list = [int(a), int(b)]
     
-    while(temp < 1000):
+    while True:
         # temp = my_list[len(my_list) - 2] + my_list[len(my_list) - 1];
         temp = my_list[-2] + my_list[-1]; # Array's last element can be accessed by passing the -ve numbers as index
         if(temp > 1000):
