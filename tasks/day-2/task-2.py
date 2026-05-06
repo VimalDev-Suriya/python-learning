@@ -43,13 +43,11 @@ print(my_str_1[::-1][::2]) # Simple and more concise
 # Online Python compiler (interpreter) to run Python online.
 # Write Python 3 code in this online editor and run it.
 def fib_2_numbers(a, b):
-    number_a = int(a);
-    number_b = int(b)
-    my_list = [number_a, number_b];
-    temp = number_a
+    my_list = [int(a), int(b)]
     
     while(temp < 1000):
-        temp = my_list[len(my_list) - 2] + my_list[len(my_list) - 1];
+        # temp = my_list[len(my_list) - 2] + my_list[len(my_list) - 1];
+        temp = my_list[-2] + my_list[-1]; # Array's last element can be accessed by passing the -ve numbers as index
         if(temp > 1000):
             break
         my_list.append(temp);
