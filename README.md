@@ -17,6 +17,11 @@ jupyter notebook
     - we can create a `new file`
     - implement the code
     - post click the `run as module` 
+6. `Pylance` is the development exp intellisece in VS code - like prettier and eslint
+
+## Best Practices
+- Always use snake case for the function and variable names in python
+- Class name should be PascalCase (CapWords) eg - StudentName
 
 ## Concepts
 
@@ -101,11 +106,3 @@ str = "hello";
 len(str); # 5 returns the lenth of the string
 str.count("") # accepts the correspoding character and returns the number of occurance that character was repeated
 ```
-
-#### Split and Strip
-
-### List Operations
-
-#### Add 
-
-#### Remove
