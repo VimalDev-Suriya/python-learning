@@ -38,3 +38,30 @@ print(reversed_str[0:len(reversed_str):2])
 
 my_str_1 ="123456789"
 print(my_str_1[::-1][::2]) # Simple and more concise
+
+# Task 4
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+def fib_2_numbers(a, b):
+    number_a = int(a);
+    number_b = int(b)
+    my_list = [number_a, number_b];
+    temp = number_a
+    
+    while(temp < 1000):
+        temp = my_list[len(my_list) - 2] + my_list[len(my_list) - 1];
+        if(temp > 1000):
+            break
+        my_list.append(temp);
+    
+    print(my_list) # [100, 2, 102, 104, 206, 310, 516, 826]
+    # for num in my_list:
+    #     if(temp > 1000):
+    #         break;
+        
+    #     temp = my_list[len(my_list) - 2] + my_list[len(my_list) - 1];
+    #     my_list.append(temp);
+
+    # print(my_list) # [100, 2, 102, 104, 206, 310, 516, 826, 1342]
+        
+fib_2_numbers(100, 2)
