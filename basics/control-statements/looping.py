@@ -6,7 +6,8 @@ while(val <= 10):
     val += 1;
 else:
     print('Out of Loop')
-print("*********** For looping Statements ***********")
+    
+print("*********** For looping Statement ***********")
 myStr_2 = "Python";
 myList_2 = [1, 2, 3, 4];
 myTuple_2 = ("a", "b", "c");
@@ -44,3 +45,11 @@ print('Looping from the Range')
 for i in range(0, 10, 2):
     print("i", i)
 print("*********** looping Statements ***********")
+
+print("*********** Single line looping Statements ***********")
+
+number = [num for num in range(5)];
+print(number) # [0, 1, 2, 3, 4]
+
+number_1 = [num for num in range(5) if(num % 2) == 0]
+print(number_1); # [0, 2, 4]
