@@ -23,6 +23,27 @@ jupyter notebook
 - Always use snake case for the function and variable names in python
 - Class name should be PascalCase (CapWords) eg - StudentName
 
+## Installation/Unistallation of Packages/Libraries/Modules
+
+```cmd
+pip install <package-name-1> <package-name-2>
+
+pip install numpy
+```
+```cmd
+pip uninstall <package-name> <package-name-2>
+
+pip uninstall numpy
+```
+
+### To Validate whether the packages are installed
+
+```
+pip show <package-name>
+```
+- This will rerturn the detailed about the package which we installed. 
+- If there is no package it will return null
+
 ## Concepts
 
 ### How to comment in python?
